@@ -14,8 +14,8 @@ const gallery = document.querySelector('.gallery')
 
 const images = [
     'car.png',
-    'micro.jpg',
-    'jsp.jpg',
+    'image.webp',
+    'attachment3A1efc8963-63e3-4036-8d2d-e7733244b42e3Aimage_4.webp',
     'gun.jpg',
     'sniper.jpg',
     'train.png'
@@ -25,4 +25,5 @@ images.forEach(src => {
     const img = document.createElement('img')
     img.src = src
     gallery.appendChild(img)
+
 })
